@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de sesión</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/tema.css">
+</head>
+<body>
+    <div class="form-body">
+        <div class="website-logo">
+            <a href="login.html">
+                <div class="logo">
+                    <img class="logo-size" src="images/tuercas.png" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="row">
+            <div class="img-holder">
+                <div class="bg"></div>
+                <div class="info-holder">
+
+                </div>
+            </div>
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <h3>Bienvenido a ferreteria tuercas y tornillos</h3>
+                        <p>Acceso a todas las herramientas de construcción de alta calidad y potentes del mercado.</p>
+                        <div class="page-links">
+                            <a href="login.html" class="active">Login</a><a href="registrar.html">Registro</a>
+                        </div>
+                        <form action="loginproceso.php" method="POST">
+                            <input  type="text" name="txtusu" placeholder="Correo electrónico" required>
+                            <input  type="password" name="txtpass" placeholder="Contraseña" required>
+                            
+                            <div class="form-button">
+                                <button type="submit" class="ibtn">Login</button> <a href="recuperar.html">¿Olvidaste tu contraseña?</a>
+                            </div>
+                        </form>
+                        
+                        <div class="other-links">
+                            <span>Inicia sesión con</span><a href="#">Facebook</a><a href="#">Google</a><a href="#">Twitter</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
